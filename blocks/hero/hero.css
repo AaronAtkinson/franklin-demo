@@ -37,3 +37,13 @@ main .hero img {
   width: 100%;
   height: 100%;
 }
+
+main .hero img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+main .hero .button-container .button {
+  background: red;
+}
