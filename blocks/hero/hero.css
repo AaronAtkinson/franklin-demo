@@ -16,6 +16,10 @@ main .hero {
 }
 
 main .hero h1 {
+   max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
 font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-60)/64px var(--unnamed-font-family-red-hat-display);
 letter-spacing: var(--unnamed-character-spacing-0);
 color: var(--unnamed-color-ffffff);
