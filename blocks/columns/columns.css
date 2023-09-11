@@ -28,6 +28,9 @@
     gap: 32px;
   }
 
+  .columns.justify-start > div {
+  justify-content: flex-start;
+  }
   .columns > div > div {
     flex: 1;
     order: unset;
