@@ -28,7 +28,7 @@
     gap: 32px;
   }
 
-  .columns.justify-start > div {
+  .columns.align-top > div {
     align-items: flex-start;
   }
   .columns > div > div {
