@@ -1,18 +1,8 @@
-.logos{
-background:green;
-  padding:10px;
-}
-
-.logos>div{
-  padding:10px;
-background:red;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-}
-
-.logos>div>div{
-  padding:10px;
-  margin:10px;
-background:blue;
+main .logos p{
+text-align: center;
+font: normal normal bold 15px/24px Red Hat Display;
+letter-spacing: 1.5px;
+color: #000000;
+text-transform: uppercase;
+opacity: 1;  
 }
