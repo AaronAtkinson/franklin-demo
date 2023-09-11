@@ -1,4 +1,4 @@
-main .logos p{
+main .logos > p{
 text-align: center;
 font: normal normal bold 15px/24px Red Hat Display;
 letter-spacing: 1.5px;
