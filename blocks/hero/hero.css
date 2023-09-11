@@ -12,15 +12,29 @@ main .hero {
   position: relative;
   padding: 32px;
   min-height: 300px;
+  c
 }
 
 main .hero h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-60)/64px var(--unnamed-font-family-red-hat-display);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-ffffff);
+text-align: left;
+font: normal normal bold 60px/64px Red Hat Display;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
 }
-
+main .hero p {
+font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-medium) 20px/27px var(--unnamed-font-family-red-hat-display);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-ffffff);
+text-align: left;
+font: normal normal medium 20px/27px Red Hat Display;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1; 
+}
 main .hero picture {
   position: absolute;
   z-index: -1;
@@ -38,10 +52,11 @@ main .hero img {
   height: 100%;
 }
 
-main .hero .button-container {
-  background:yellow;
-}
+
 
 main .hero .button-container .button {
-  background: red;
+background: var(---f5893e-main-cta-) 0% 0% no-repeat padding-box;
+background: #F5893E 0% 0% no-repeat padding-box;
+border-radius: 30px;
+opacity: 1;
 }
