@@ -2,7 +2,9 @@
   display: flex;
   flex-direction: column;
 }
-
+.columns.justify-start > div {
+  justify-content: flex-start;
+}
 .columns img {
   width: 100%;
 }
