@@ -37,10 +37,10 @@
 }
 
 .columns.tiny-image  {
-  color:purple !important;
+  color:purple;
 }
 
 
-.columns .tiny-image img  {
+.columns.tiny-image img  {
   width:auto;
 }
