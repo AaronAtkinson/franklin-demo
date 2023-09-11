@@ -32,6 +32,15 @@
   }
 }
 
+.columns  {
+  color:teal;
+}
+
+.columns .tiny-image  {
+  color:purple;
+}
+
+
 .columns .tiny-image img  {
   width:auto;
 }
