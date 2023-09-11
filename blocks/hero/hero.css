@@ -67,6 +67,8 @@ main .hero .button-container{
   margin-right: auto;
 }
 main .hero .button-container .button {
+  padding:16px 40px ;
+  font: normal normal bold 15px/24px Red Hat Display;
 background: var(---f5893e-main-cta-) 0% 0% no-repeat padding-box;
 background: #F5893E 0% 0% no-repeat padding-box;
 border-radius: 30px;
