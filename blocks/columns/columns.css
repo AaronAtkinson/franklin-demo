@@ -113,7 +113,7 @@ main .columns > div > div > p > a.button {
 	border-radius: 30px;
 	opacity: 1;
 	
-	.primary{
+	> .primary{
 		background: #F5893E;
 		color: white;
 	}
