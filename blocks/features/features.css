@@ -3,7 +3,7 @@ main .features-container {
 }
 
 main .features-container h1 {
-	margin:0;
+	margin: 16px 0px 8px 0px;
 	text-align: left;
 	font: normal normal bold 54px/58px Red Hat Display;
 	letter-spacing: 0px;
