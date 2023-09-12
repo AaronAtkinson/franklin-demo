@@ -1,3 +1,8 @@
+main .video-container{
+	padding-left:0;
+	padding-right:0;
+}
+
 main .video-container .video-wrapper{
 	max-width:none;
 }
