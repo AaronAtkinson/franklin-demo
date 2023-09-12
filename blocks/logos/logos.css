@@ -1,3 +1,6 @@
+main .logos-container {
+	opacity:0.5;
+}
 main .logos-container .default-content-wrapper {
 	text-align:center;
 }
