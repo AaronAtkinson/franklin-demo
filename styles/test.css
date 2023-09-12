@@ -35,7 +35,6 @@ body {
   
   /* MD */
   @media (min-width: 780px) {
-    flex-direction: row;
     padding: 0;
     max-width: 680px;
   }
