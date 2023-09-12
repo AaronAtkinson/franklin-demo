@@ -1,44 +1,21 @@
+/* 
 * {
   font-family: Work Sans;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+} 
+*/
+/* 
+body {
+  max-width: 400px;
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
 }
+*/
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  padding: 0px;
-  margin: 0px;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-}
-.column {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
-
-.grow {
-  flex-grow: 1;
-}
-.shrink {
-  flex-shrink: 0;
-}
-
-.accentText {
-  color: #FD0272;
-}
-
-.layout {
+body {
   width: 100%;
   display: flex;
   align-items: center;
@@ -49,51 +26,50 @@ p {
   flex-direction: column;
   padding: 28px;
   max-width: 480px;
+  
   /* SM */
   @media (min-width: 640px) {
     padding: 28px 64px;
     max-width: 640px;
   }
+  
   /* MD */
   @media (min-width: 780px) {
     flex-direction: row;
     padding: 0;
     max-width: 680px;
   }
+  
   /* LG */
   @media (min-width: 1024px) {
     max-width: 880px;
   }
+  
   /* XL */
   @media (min-width: 1280px) {
     max-width: 960px;
   }
 }
 
-.card {
-  position: relative;
-  background: white;
-  border: 2px solid #ecedf2;
-  padding: 47px 30px 50px 30px;
-  border-radius: 24px;
-  width: 100%;
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
 
-  /* MD */
-  @media (min-width: 780px) {
-    max-width: 360px;
-  }
-  /* LG */
-  @media (min-width: 1024px) {
-    max-width: 408px;
-  }
+p {
+  display: flex;
+  flex-direction: column;
+  /* gap: 4px; */
 }
 
 /* --Input Label-- */
 label {
+  margin-left: 0;
   font: normal normal 600 13px/28px Work Sans;
   letter-spacing: 0px;
-  line-height: 16px;
   color: #1E1F22;
+  /* line-height: 16px; */
 }
 
 /* --Input Field-- */
@@ -116,203 +92,39 @@ input {
   color: #8E8E90;
 }
 
-/* --Input Checkbox-- */
-input[type="checkbox"] {
-  appearance: none;
-  width: 16px;
-  height: 16px;
+/* --Select Field-- */
+select {
+  padding: 14px 17px 14px 17px;
   border: 2px solid #ECEDF2;
-  border-radius: 5px;
-  background: white;
-  display: inline-block;
-  vertical-align: middle;
-  position: relative;
-  transition: 200ms background ease-in-out;
-}
-
-input[type="checkbox"]:checked {
-  background: #FD0272;
-}
-
-input[type="checkbox"]:before {
-  position: absolute;
-  content: "\2714";
-  font-size: 10px;
-  top: -1px;
-  left: 2px;
-  line-height: 15px;
-  color: white;
-  transform: scale(0);
-  transition: 200ms transform ease-in-out;
-}
-
-input[type="checkbox"]:checked::before {
-  transform: scale(1);
-}
-
-/* --Modal-- */
-.modal {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  left: 0;
-
-  top: auto;
-  bottom: 100vh;
-  transition: bottom 0ms ease-in-out 300ms;
-  /* MD */
-  @media (min-width: 780px) {
-    top: -100vh;
-    bottom: auto;
-    transition: top 0ms ease-in-out 300ms;
-  }
-}
-
-.modal .modal-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.75);
-  opacity: 0;
-  transition: all 300ms ease-in-out;
-}
-
-.modal .modal-content {
-  position: absolute;
-  background: white;
-  padding: 32px 36px 36px 36px;
   border-radius: 12px;
-  opacity: 0;
-  transition: all 300ms ease-in-out;
-
-  top: auto;
-  left: 25px;
-  bottom: 25px;
-  width: calc(100% - 50px);
-  transform: translate(0%, 50%) scale(1);
-  /* MD */
-  @media (min-width: 780px) {
-    top: 50%;
-    left: 50%;
-    bottom: auto;
-    width: 95%;
-    max-width: 380px;
-    transform: translate(-50%, -50%) scale(1.15);
-  }
+}
+/* --Text Area-- */
+textarea {
+  padding: 14px 17px 14px 17px;
+  border: 2px solid #ECEDF2;
+  border-radius: 12px;
 }
 
-.modal .modal-content h4 {
-  text-align: center;
-  font: normal normal 600 24px/30px Work Sans;
-  letter-spacing: 0px;
-  color: #1E1F22;
-  opacity: 1;
-}
 
-.modal .modal-content p {
-  text-align: center;
-  font: normal normal normal 16px/24px Work Sans;
-  letter-spacing: 0px;
-  color: #828691;
-  opacity: 1;
-}
-
-.modal .modal-content button {
-  position: absolute;
-  cursor: pointer;
-  border-radius: 50%;
-  background: #ECEDF2;
-  content: "\2573";
-  color: #1E1F22;
-  border: none;
-
-  top: 9px;
-  right: 9px;
-  height: 36px;
-  width: 36px;
-  font-size: 24px;
-  font-weight: 500;
-  /* MD */
-  @media (min-width: 780px) {
-    top: 6px;
-    right: 6px;
-    height: 24px;
-    width: 24px;
-    font-size: 16px;
-    font-weight: 700;
-  }
-}
-.modal .modal-content button:hover {
-  opacity: 0.75;
-}
-
-.modal.active {
-  top: auto;
-  bottom: 0px;
-  transition: bottom 0ms ease-in-out 0ms;
-  /* MD */
-  @media (min-width: 780px) {
-    top: 0px;
-    bottom: auto;
-    transition: top 0ms ease-in-out 0ms;
-  }
-}
-
-.modal.active .modal-overlay {
-  opacity: 1;
-}
-
-.modal.active .modal-content {
-  opacity: 1;
-
-  transform: translate(0%, 0%) scale(1);
-  /* MD */
-  @media (min-width: 780px) {
-    transform: translate(-50%, -50%) scale(1);
-  }
-}
-
-/* --Copy-- */
-.copy-header {
-  text-align: left;
-  color: #1E1F22;
-
-  font: normal normal bold 48px/56px Work Sans;
-  /* MD */
-  @media (min-width: 780px) {
-    font: normal normal bold 56px/64px Work Sans;
-  }
-  /* LG */
-  @media (min-width: 1024px) {
-    font: normal normal bold 64px/74px Work Sans;
-  }
-}
-
-.copy-body {
+.promo-text {
   text-align: left;
   font: normal normal normal 20px/32px Work Sans;
   letter-spacing: 0px;
-  color: #828691;
   opacity: 1;
-
-  display: none;
-  /* SM */
-  @media (min-width: 640px) {
-    display: block;
-  }
+  display: block;  
+  /* color: #828691; */
 }
 
-/* --Form-- */
-.form-header {
+small {
   text-align: left;
-  font: normal normal 600 24px/30px Work Sans;
+  font: normal normal normal 16px/28px Work Sans;
   letter-spacing: 0px;
-  color: #1E1F22;
+  opacity: 1;
+  display: block;  
+  /* color: #828691; */
 }
 
-.submit-button {
+.action-button {
   width: 100%;
   font: normal normal 600 16px/28px Work Sans;
   letter-spacing: 0px;
@@ -324,17 +136,26 @@ input[type="checkbox"]:checked::before {
   border-width: 0px;
   cursor: pointer;
 }
-.submit-button:hover {
+.action-button:hover {
   opacity: 0.75;
 }
 
-/* --Limited Offer Badge-- */
-.offer-badge {
-  position: absolute;
-  top: -14px;
-  left: -11px;
-  background: #ffdd4d;
-  padding: 15px 23px 15px 23px;
-  font-weight: 600;
-  font-size: 14px;
+
+.card {
+  position: relative;
+  background: white;
+  border: 2px solid #ecedf2;
+  padding: 47px 30px 50px 30px;
+  border-radius: 24px;
+  width: 100%;
+
+  /* MD */
+  @media (min-width: 780px) {
+    max-width: 360px;
+  }
+  /* LG */
+  @media (min-width: 1024px) {
+    max-width: 408px;
+  }
 }
+
