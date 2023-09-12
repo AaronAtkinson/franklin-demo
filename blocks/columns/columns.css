@@ -111,14 +111,12 @@ main .columns > div > div > p > a.button {
 	padding:16px 40px ;
   	font: normal normal bold 15px/24px Red Hat Display;
 	border-radius: 30px;
-	opacity: 1;
-	
-	> .primary{
-		background: #F5893E;
-		color: white;
-	}
+	opacity: 1;	
 }
-
+main .columns > div > div > p > a > .button > .primary {
+	background: #F5893E;
+		color: white;
+}
 main .columns > div > div > p > a.button:hover {
 	opacity: 0.75;
 }
