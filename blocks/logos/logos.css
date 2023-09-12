@@ -1,8 +1,11 @@
-main .logos > p{
-text-align: center;
-font: normal normal bold 15px/24px Red Hat Display;
-letter-spacing: 1.5px;
-color: #000000;
-text-transform: uppercase;
-opacity: 1;  
+main .logos-container .default-content-wrapper {
+	text-align:center;
+}
+
+main .logos-container .default-content-wrapper p {
+  font: normal normal bold 15px/24px Red Hat Display;
+  letter-spacing: 1.5px;
+  color: #000000;
+  text-transform: uppercase;
+  opacity: 1;  
 }
