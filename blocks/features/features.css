@@ -32,7 +32,7 @@ main .features-container h3 {
 	opacity: 1;
 }
 
-main .features-container . columns-wrapper .columns > div > div > p {
+main .features-container .columns > div > div > p {
 	margin:0;
 }
 
