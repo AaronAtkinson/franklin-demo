@@ -3,3 +3,7 @@
     color:red;
 }
  */
+.sticky-top{
+    position:sticky;
+    top:0;
+}
