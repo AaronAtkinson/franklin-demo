@@ -108,16 +108,17 @@ main .columns > div > div > p {
 
 main .columns > div > div > p > a.button {
 	margin: 40px 0 0 0;
-}
-
-main .columns > div > div > p > a .button .primary {
 	padding:16px 40px ;
   	font: normal normal bold 15px/24px Red Hat Display;
-	background: var(---f5893e-main-cta-) 0% 0% no-repeat padding-box;
-	background: #F5893E 0% 0% no-repeat padding-box;
 	border-radius: 30px;
 	opacity: 1;
+	
+	.primary{
+		background: #F5893E;
+		color: white;
+	}
 }
-main .columns > div > div > p > a .button .primary:hover {
+
+main .columns > div > div > p > a.button:hover {
 	opacity: 0.75;
 }
