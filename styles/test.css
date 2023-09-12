@@ -39,8 +39,8 @@ form {
   gap: 12px;
   width: 100%;
   
-  /* MD */
-  @media (min-width: 780px) {
+  /* SM */
+  @media (min-width: 640px) {
     width: 50%;
     min-width: 300px;
   }
