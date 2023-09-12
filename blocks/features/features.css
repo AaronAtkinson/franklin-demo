@@ -16,6 +16,7 @@ main .features-container .columns-wrapper .columns > div {
 }
 
 main .features-container h2 {	
+	max-width: 766px;
 	margin:0 0 48px 0;
 	text-align: left;
 	font: normal normal bold 54px/58px Red Hat Display;
