@@ -3,6 +3,7 @@ main .features-container {
 }
 
 main .features-container h1 {
+	margin:0;
 	text-align: left;
 	font: normal normal bold 54px/58px Red Hat Display;
 	letter-spacing: 0px;
@@ -11,6 +12,7 @@ main .features-container h1 {
 }
 
 main .features-container h5 {
+	margin:0;
 	text-align: left;
 	font: normal normal bold 15px/24px Red Hat Display;
 	letter-spacing: 1.5px;
@@ -20,11 +22,13 @@ main .features-container h5 {
 }
 
 main .features-container .icon {
+	margin:0;
 	height: 40px;
 	width: 40px;
 }
 
 main .features-container h3 {
+	margin:0;
 	text-align: left;
 	font: normal normal bold 26px/34px Red Hat Display;
 	letter-spacing: 0px;
@@ -32,11 +36,9 @@ main .features-container h3 {
 	opacity: 1;
 }
 
-main .features-container .columns-container .columns > div > div > p {
-	margin:0;
-}
 
 main .features-container p {
+	margin:0;
 	text-align: left;
 	font: normal normal medium 19px/26px Red Hat Display;
 	letter-spacing: 0px;
