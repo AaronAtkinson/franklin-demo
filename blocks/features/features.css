@@ -33,7 +33,7 @@ main .features-container h3 {
 }
 
 main .features-container p {
-	margin:unset;
+	margin:0;
 	text-align: left;
 	font: normal normal medium 19px/26px Red Hat Display;
 	letter-spacing: 0px;
