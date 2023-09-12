@@ -10,8 +10,8 @@ main .features-container .columns-wrapper .columns > div {
 	gap:48px;
 	margin-bottom:0px;
 
- /* MD */
-  @media (min-width: 780px) {
+ 
+  @media (min-width: 900px) {
 	gap:42px;
 	margin-bottom:56px;
   }
