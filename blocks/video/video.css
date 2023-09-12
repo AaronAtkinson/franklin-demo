@@ -1,0 +1,7 @@
+main .video-container .video-wrapper{
+	max-width:none;
+}
+
+main .video-container .video-wrapper .video > div > div > picture  > img {
+	width:100%;
+}
