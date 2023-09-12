@@ -125,6 +125,6 @@ main .columns > div > div > table {
 	margin-top: 40px;
 }
 
-main .columns > div > div > table > span .icon {
+.columns > div > div > table > tbody > tr > td > span .icon {
 	margin-right: 8px;
 }
