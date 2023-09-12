@@ -144,7 +144,7 @@ header nav[aria-expanded="true"] .nav-hamburger-icon::after {
 header .nav-brand {
   grid-area: brand;
   flex-basis: 128px;
-  font-size: var(--heading-font-size-s);
+/*   font-size: var(--heading-font-size-s); */
   font-weight: 700;
   line-height: 1;
 }
@@ -155,7 +155,7 @@ header nav .nav-brand > p {
   gap:4px;
   align-items:center;
 }
-header nav .nav-brand > a {
+header nav .nav-brand > p > a {
   white-space: nowrap;
   font-size: 16px;
     line-height: 16px;
