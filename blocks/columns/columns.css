@@ -120,3 +120,11 @@ main .columns > div > div > p > a.primary {
 main .columns > div > div > p > a.button:hover {
 	opacity: 0.75;
 }
+
+main .columns > div > div > table {
+	margin-top: 40px;
+}
+
+main .columns > div > div > table > .icon {
+	margin-right: 8px;
+}
