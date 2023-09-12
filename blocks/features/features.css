@@ -1,6 +1,3 @@
-main .features-container {
-	background:red;
-}
 
 main .features-container . columns-wrapper .columns > div > div > p {
 	margin:0;
