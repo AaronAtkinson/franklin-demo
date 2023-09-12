@@ -123,8 +123,9 @@ main .columns > div > div > p > a.button:hover {
 
 main .columns > div > div > table {
 	margin-top: 40px;
+	width:100%;
 }
 
-.columns > div > div > table > tbody > tr > td > span .icon {
+main .columns > div > div > table > tbody > tr > td > span.icon {
 	margin-right: 8px;
 }
