@@ -109,7 +109,10 @@ textarea {
   padding: 14px 17px 14px 17px;
   border: 2px solid #ECEDF2;
   border-radius: 12px;
-  width: unset !important;
+  /* width: unset !important; */
+}
+p > textarea {
+   width: unset;
 }
 
 
