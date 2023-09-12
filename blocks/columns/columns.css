@@ -98,7 +98,7 @@ main .columns > div > div > h3 {
 
 
 main .columns > div > div > p {
-	margin: 16px 0 0 0;
+/* 	margin: 16px 0 0 0; */
 	text-align: left;
 	font: normal normal medium 19px/26px Red Hat Display;
 	letter-spacing: 0px;
@@ -106,6 +106,6 @@ main .columns > div > div > p {
 	opacity: 1;
 }
 
-main .columns > div > div > p > a .button {
+main .columns > div > div > p > a.button {
 	margin: 40px 0 0 0;
 }
