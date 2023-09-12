@@ -155,8 +155,14 @@ header nav .nav-brand > p {
   gap:2;
   align-items:center;
 }
+header nav .nav-brand > a {
+  white-space: nowrap;
+  font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+}
 header nav .nav-brand img {
-  width: 128px;
+  width: 27px;
   height: auto;
 }
 
