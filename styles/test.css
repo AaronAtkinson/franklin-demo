@@ -65,7 +65,7 @@ label {
 input {
   padding: 14px 17px 14px 17px;
   border: 2px solid #ECEDF2;
-  border-radius: 12px;
+  border-radius: 8px;
 }
 ::placeholder {
   /* Firefox */
@@ -85,13 +85,13 @@ input {
 select {
   padding: 14px 17px 14px 17px;
   border: 2px solid #ECEDF2;
-  border-radius: 12px;
+  border-radius: 8px;
 }
 /* --Text Area-- */
 textarea {
   padding: 14px 17px 14px 17px;
   border: 2px solid #ECEDF2;
-  border-radius: 12px;
+  border-radius: 8px;
   /* width: unset!important; */
 }
 p > textarea {
@@ -124,7 +124,7 @@ small {
   color: white;
   text-transform: capitalize;
   background: #FD0272;
-  border-radius: 12px;
+  border-radius: 8px;
   padding: 18px 20px 17px 20px;
   border-width: 0px;
   cursor: pointer;
