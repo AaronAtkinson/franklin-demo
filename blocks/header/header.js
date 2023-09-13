@@ -17,13 +17,14 @@ function setActivePage(e) {
   for (var i = 0; i < document.links.length; i++) {  
     let link = document.links[i].href;
     link = link.substr(link.lastIndexOf('/') + 1);
+    
+    console.log("link:");
+    console.log(link);
+    
     if (url === link) {
       document.links[i].className = 'active';
     }
 
-
-    
-    
   
   
   }
