@@ -8,6 +8,8 @@ function setActivePage(e) {
 
   console.log("url:");
   console.log(url);
+  url = url.substr(url.lastIndexOf('/') + 1);
+  console.log(url);
   
   console.log("links:");
   console.log(links);
@@ -20,6 +22,7 @@ function setActivePage(e) {
     }
 
 
+    
     
   
   
