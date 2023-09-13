@@ -14,7 +14,7 @@ function setActivePage(e) {
   
   console.log("links:");  
   
-  var links = document.querySelectorAll('.nav-sections li a');
+  var links = document.querySelectorAll('.nav-sections a');
   console.log(links);
    
   
