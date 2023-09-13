@@ -8,6 +8,9 @@ header .nav-wrapper {
     border-bottom: 1px solid #EAEAEA;
 }
 
+.nav-sections li a.active {
+  border-bottom: 4px solid red;  
+}
 header nav {
   box-sizing: border-box;
   display: grid;
