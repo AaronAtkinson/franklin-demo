@@ -6,10 +6,10 @@ function setActivePage(e) {
   var url = document.URL;
   var links = document.querySelectorAll('.nav-sections li a');
 
-  console.log("url":);
+  console.log("url:");
   console.log(url);
   
-  console.log("links":);
+  console.log("links:");
   console.log(links);
 
   for (var i = 0; i < document.links.length; i++) {  
@@ -19,6 +19,9 @@ function setActivePage(e) {
       document.links[i].className = 'active';
     }
 
+
+    
+  
   
   }
 }
