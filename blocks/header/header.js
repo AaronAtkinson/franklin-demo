@@ -3,23 +3,33 @@
 
 
 function setActivePage(e) {
-  var url = document.URL;
-  var links = document.querySelectorAll('.nav-sections li a');
-
   console.log("url:");
-  console.log(url);
-  url = url.substr(url.lastIndexOf('/') + 1);
+  
+  var url = document.URL;
   console.log(url);
   
-  console.log("links:");
-  console.log(links);
+  url = url.substr(url.lastIndexOf('/') + 1);
+  console.log(url);
 
+  
+  console.log("links:");  
+  
+  var links = document.querySelectorAll('.nav-sections li a');
+  console.log(links);
+   
+  
   for (var i = 0; i < document.links.length; i++) {  
-    let link = document.links[i].href;
-    link = link.substr(link.lastIndexOf('/') + 1);
-    
     console.log("link:");
+    
+    let link = document.links[i];
     console.log(link);
+    
+    link = link.href;
+    console.log(link);
+    
+    link = link.substr(link.lastIndexOf('/') + 1);
+    console.log(link);
+   
     
     if (url === link) {
       document.links[i].className = 'active';
