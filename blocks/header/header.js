@@ -14,7 +14,7 @@ function setActivePage(e) {
   
   console.log("links:");  
   
-  var links = document.querySelectorAll('a');
+  var links = document.querySelectorAll("a");
   console.log(links);
    
   
@@ -188,6 +188,7 @@ export default async function decorate(block) {
     navWrapper.append(nav);
     block.append(navWrapper);
   }
+  setActivePage();
 }
 
-    setActivePage();
+    
