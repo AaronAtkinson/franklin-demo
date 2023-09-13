@@ -20,13 +20,13 @@ function setActivePage(e) {
   
   //for (var i = 0; i < document.links.length; i++) {  
   for (var i = 0; i < links.length; i++) {  
-    console.log("link:");
+    // console.log("link:");
     
-    let link = links[i];
-    console.log(link);
+    let el = links[i];
+    // console.log(link);
     
-    link = link.href;
-    console.log(link);
+    let link = el.href;
+    // console.log(link);
     
     link = link.substr(link.lastIndexOf('/') + 1);
     console.log(link);
@@ -34,6 +34,7 @@ function setActivePage(e) {
     
     if (url === link) {
       console.log("is active");
+      console.log(el)
       document.links[i].className = 'active';
     }else{
       console.log("not active");
