@@ -18,10 +18,11 @@ function setActivePage(e) {
   console.log(links);
    
   
-  for (var i = 0; i < document.links.length; i++) {  
+  //for (var i = 0; i < document.links.length; i++) {  
+  for (var i = 0; i < links.length; i++) {  
     console.log("link:");
     
-    let link = document.links[i];
+    let link = links[i];
     console.log(link);
     
     link = link.href;
