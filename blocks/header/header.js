@@ -23,10 +23,10 @@ function setActivePage(e) {
     // console.log("link:");
     
     let el = links[i];
-    // console.log(link);
+    console.log(el);
     
     let link = el.href;
-    // console.log(link);
+    console.log(link);
     
     link = link.substr(link.lastIndexOf('/') + 1);
     console.log(link);
