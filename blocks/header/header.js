@@ -33,7 +33,10 @@ function setActivePage(e) {
    
     
     if (url === link) {
+      console.log("is active");
       document.links[i].className = 'active';
+    }else{
+      console.log("not active");
     }
 
   
