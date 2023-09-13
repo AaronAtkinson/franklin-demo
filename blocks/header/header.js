@@ -1,3 +1,32 @@
+
+/* CUSTOM */
+
+
+function setActivePage(e) {
+  var url = document.URL;
+  var links = document.querySelectorAll('.nav-sections li a');
+
+  console.log("url":);
+  console.log(url);
+  
+  console.log("links":);
+  console.log(links);
+
+  for (var i = 0; i < document.links.length; i++) {  
+    let link = document.links[i].href;
+    link = link.substr(link.lastIndexOf('/') + 1);
+    if (url === link) {
+      document.links[i].className = 'active';
+    }
+
+  
+  }
+}
+
+
+/* /CUSTOM */
+
+
 import { getMetadata, decorateIcons } from '../../scripts/lib-franklin.js';
 
 // media query match that indicates mobile/tablet width
@@ -143,3 +172,5 @@ export default async function decorate(block) {
     block.append(navWrapper);
   }
 }
+
+    setActivePage();
