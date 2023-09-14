@@ -46,28 +46,31 @@ form {
   }
 }
 
+
 p {
   display: flex;
   flex-direction: column;
-  /* gap: 4px; */
+  text-align: center;
+  font: normal normal normal 18px/24px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #333333;
+  opacity: 1;
 }
 
 /* --Input Label-- */
 label {
-  margin-left: 50px;
-/*   font: normal normal 600 13px/28px Work Sans; */
-  font-family: 'Source Sans Pro', sans-serif;
-
+  text-align: left;
+  font: normal normal 600 16px/43px Source Sans Pro;
   letter-spacing: 0px;
-  color: #1E1F22;
-  /* line-height: 16px; */
+  color: #000000;
+  opacity: 1;  
 }
 
 /* --Input Field-- */
 input {
   padding: 14px 17px 14px 17px;
-  border: 2px solid #ECEDF2;
-  border-radius: 8px;
+  border: 1px solid #000000;
+  opacity: 1;
 }
 ::placeholder {
   /* Firefox */
@@ -94,29 +97,9 @@ textarea {
   padding: 14px 17px 14px 17px;
   border: 2px solid #ECEDF2;
   border-radius: 8px;
-  /* width: unset!important; */
 }
 p > textarea {
    width: unset!important;
-}
-
-
-.promo-text {
-  text-align: left;
-  font: normal normal normal 20px/32px Work Sans;
-  letter-spacing: 0px;
-  opacity: 1;
-  display: block;  
-  /* color: #828691; */
-}
-
-small {
-  text-align: left;
-  font: normal normal normal 16px/28px Work Sans;
-  letter-spacing: 0px;
-  opacity: 1;
-  display: block;  
-  /* color: #828691; */
 }
 
 input[type="submit"] {
@@ -126,30 +109,11 @@ input[type="submit"] {
   color: white;
   text-transform: capitalize;
   background: #FD0272;
-  border-radius: 8px;
   padding: 14px 17px 14px 17px;
-  border-width: 0px;
-  cursor: pointer;
+  cursor: pointer;  
+  border: 2px solid #ECEDF2;
+  border-radius: 8px;
 }
 input[type="submit"]:hover {
   opacity: 0.75;
-}
-
-
-.card {
-  position: relative;
-  background: white;
-  border: 2px solid #ecedf2;
-  padding: 47px 30px 50px 30px;
-  border-radius: 24px;
-  width: 100%;
-
-  /* MD */
-  @media (min-width: 780px) {
-    max-width: 360px;
-  }
-  /* LG */
-  @media (min-width: 1024px) {
-    max-width: 408px;
-  }
 }
