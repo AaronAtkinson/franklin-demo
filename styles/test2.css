@@ -32,7 +32,9 @@ body {
     max-width: 960px;
   }
 }
-
+.promo-text{
+  display:none;
+}
 form {
   display: flex;
   flex-direction: column;
