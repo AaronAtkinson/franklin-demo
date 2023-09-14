@@ -106,15 +106,15 @@ p > textarea {
 
 input[type="submit"] {
   width: 100%;
-  font: normal normal 600 16px/28px Work Sans;
+  font: normal normal 600 16px Work Sans;
   letter-spacing: 0px;
   color: white;
   text-transform: capitalize;
-  background: #FD0272;
+  background: #333333;
   padding: 14px 17px 14px 17px;
   cursor: pointer;  
-  border: 2px solid #ECEDF2;
-  border-radius: 8px;
+  border: 0px;
+  border-radius: 100px;
 }
 input[type="submit"]:hover {
   opacity: 0.75;
