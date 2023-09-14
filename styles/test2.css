@@ -90,15 +90,17 @@ input {
 
 /* --Select Field-- */
 select {
+  margin-bottom: 24px;
   padding: 14px 17px 14px 17px;
-  border: 2px solid #ECEDF2;
-  border-radius: 8px;
+  border: 1px solid #000000;
+  opacity: 1;
 }
 /* --Text Area-- */
 textarea {
+  margin-bottom: 24px;
   padding: 14px 17px 14px 17px;
-  border: 2px solid #ECEDF2;
-  border-radius: 8px;
+  border: 1px solid #000000;
+  opacity: 1;
 }
 p > textarea {
    width: unset!important;
