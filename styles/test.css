@@ -63,8 +63,11 @@ p {
 /* --Input Label-- */
 label {
   margin-bottom: 8px;
-  text-align: left;
-  font: normal normal 600 16px/43px Source Sans;
+  text-align: left;  
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Source Sans 3', sans-serif;
+  letter-spacing: 0px;
   color: #000;
   opacity: 1;  
 }
