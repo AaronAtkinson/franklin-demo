@@ -64,8 +64,8 @@ p {
 label {
   margin-bottom: 8px;
   text-align: left;
-  font: normal normal 600 16px/43px Source;
-  color: red;
+  font: normal normal 600 16px/43px Source Sans;
+  color: #000;
   opacity: 1;  
 }
 
