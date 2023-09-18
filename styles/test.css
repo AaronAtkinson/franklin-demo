@@ -65,7 +65,7 @@ p {
 label {
   margin-bottom: 8px;
   text-align: left;
-  font: normal normal 600 16px/0px 'Source Sans 3';
+  font: normal normal 600 16px 'Source Sans 3';
   color: #000;
   opacity: 1;  
 }
