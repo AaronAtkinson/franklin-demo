@@ -55,7 +55,9 @@ p {
   display: flex;
   flex-direction: column;
   text-align: center;
-  font: normal normal normal 18px/0px Source Sans 3;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Source Sans 3', sans-serif;
   color: #333333;
   opacity: 1;
 }
