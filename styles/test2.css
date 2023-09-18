@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 body {
   /* width: 100%; */
   display: flex;
@@ -63,7 +65,7 @@ p {
 label {
   margin-bottom: 8px;
   text-align: left;
-  font: normal normal 600 16px Source Sans Pro;
+  font: normal normal 600 16px Red Hat Display;
   letter-spacing: 0px;
   color: #000000;
   opacity: 1;  
@@ -110,7 +112,7 @@ p > textarea {
 
 input[type="submit"] {
   width: 100% !important;
-  font: normal normal 600 16px Work Sans;
+  font: normal normal 600 16px 'Red Hat Display';
   letter-spacing: 0px;
   color: white;
   text-transform: uppercase;
