@@ -3,65 +3,80 @@
 
 /* -- NEW-- */
 .nav-button{
-    border: 2px solid #333 !important;
-    color: #333 !important;
-    background-color: white !important;
+    border: 1px solid #000 !important;
+    color: #FFF !important;
+    background-color: #333 !important;
     text-decoration: none !important;
-    font: normal normal 600 23px 'Red Hat Display' !important;
+    font: normal normal medium 14px/16px Work Sans !important;
     letter-spacing: 0px !important;
     text-align:center !important;
-    /*text-transform: uppercase !important;*/
+    text-transform: uppercase !important;
     border-radius: 100px !important;
     
-    padding: 14px 17px 14px 17px !important;
+    padding: 0px 16px 0px 16px !important;
+    height: 60px !important;
+    display: flex !important;
+    items-align: center !important;
+    justify-content:center !important;
+    gap: 8px !important;
     cursor: pointer !important;
+    opacity:1;
 }
 .nav-button:hover{
-    color: white !important;
-    background: #333 !important;
+  opacity: 0.75;
 }
 
 .date-toggle label{
     width:100% !important;
-    border: 2px solid #333 !important;
+    border: 1px solid #000 !important;
     color: #333 !important;
-    background-color: white !important;
+    background-color: #EDEBE5 !important;
     text-decoration: none !important;
-    font: normal normal 600 23px 'Red Hat Display' !important;
+    font: normal normal normal 18px/23px Source Sans Pro !important;
     letter-spacing: 0px !important;
     text-align:center !important;
-    text-transform: uppercase !important;
-    border-radius: 100px !important;
+    border-radius: 15px !important;
     
-    padding: 14px 17px 14px 17px !important;
+    padding: 0px 16px 0px 16px !important;
+    height: 60px !important;
+    display: flex !important;
+    items-align: center !important;
+    justify-content:center !important;
+    
     cursor: pointer !important;
 }
 .date-toggle label:hover{
-    color: white !important;
-    background: #333 !important;
+    color: #FFF !important;
+    background-color: #333 !important;
 }
 .date-toggle input:checked ~ label {
     cursor: default !important;
-    color: white !important;
-    background: #333 !important;
+    color: #333 !important;
+    font: normal normal normal 28px/43px Calluna !important;
+    background-color: transparent !important;
+    border: 2px solid transparent !important;
 }
 
 .timeslot-button{
-    border: 2px solid #333 !important;
+    border: 1px solid #000 !important;
     text-decoration: none !important;
-    font: normal normal 600 23px 'Red Hat Display' !important;
+    font: normal normal normal 18px/23px Source Sans Pro !important;
     letter-spacing: 0px !important;
     text-align:center !important;
-    color: #333 !important;
+    color: #000 !important;
     text-transform: uppercase !important;
-    background: white !important;
-    padding: 14px 17px 14px 17px !important;
+    background-color: transparent !important;
+    padding: 0px 16px 0px 16px !important;
+    height: 60px !important;
+    display: flex !important;
+    items-align: center !important;
+    justify-content:center !important;
     cursor: pointer !important;
     border-radius: 100px !important;
 }
 .timeslot-button:hover{
     color: white !important;
-    background: #333 !important;
+    background-color: #333 !important;
 }
 /* -- END NEW-- */
 body {
