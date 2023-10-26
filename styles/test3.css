@@ -3,6 +3,7 @@
 
 /* -- NEW-- */
 .nav-button{
+    width:100%;
     border: 1px solid #000 !important;
     color: #FFF !important;
     background-color: #333 !important;
@@ -16,7 +17,7 @@
     padding: 0px 16px 0px 16px !important;
     height: 60px !important;
     display: flex !important;
-    items-align: center !important;
+    align-items: center !important;
     justify-content:center !important;
     gap: 8px !important;
     cursor: pointer !important;
@@ -40,7 +41,7 @@
     padding: 0px 16px 0px 16px !important;
     height: 60px !important;
     display: flex !important;
-    items-align: center !important;
+    align-items: center !important;
     justify-content:center !important;
     
     cursor: pointer !important;
@@ -69,7 +70,7 @@
     padding: 0px 16px 0px 16px !important;
     height: 60px !important;
     display: flex !important;
-    items-align: center !important;
+    align-items: center !important;
     justify-content:center !important;
     cursor: pointer !important;
     border-radius: 100px !important;
