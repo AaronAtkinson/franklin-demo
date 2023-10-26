@@ -57,7 +57,7 @@ display: inline-flex !important;
     color: #333 !important;
     background-color: #EDEBE5 !important;
     text-decoration: none !important;
-    font-family: Source Sans 3 !important;
+    font-family: "Source Sans 3" !important;
     font-weight: 500 !important;
     font-size: 18px !important;
     line-height: 23px !important;
@@ -88,7 +88,7 @@ display: inline-flex !important;
 .timeslot-button{
     border: 1px solid #000 !important;
     text-decoration: none !important;
-    font-family: Source Sans 3 !important;
+    font-family: "Source Sans 3" !important;
     font-weight: 500 !important;
     font-size: 18px !important;
     line-height: 23px !important;
