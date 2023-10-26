@@ -2,6 +2,25 @@
 
 
 /* -- NEW-- */
+.nav-button{
+    border: 2px solid #333 !important;
+    color: #333 !important;
+    background-color: white !important;
+    text-decoration: none !important;
+    font: normal normal 600 23px 'Red Hat Display' !important;
+    letter-spacing: 0px !important;
+    text-align:center !important;
+    /*text-transform: uppercase !important;*/
+    border-radius: 100px !important;
+    
+    padding: 14px 17px 14px 17px !important;
+    cursor: pointer !important;
+}
+.nav-button:hover{
+    color: white !important;
+    background: #333 !important;
+}
+
 .date-toggle label{
     width:100% !important;
     border: 2px solid #333 !important;
