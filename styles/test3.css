@@ -37,9 +37,15 @@
 .nav-button .fa-lg{
   font-size: 0.75em !important;
 }
+
 .data-toggle p{
-display: flex !important;
+display:none;
+}
+.data-toggle input:checked ~ p{
+display: inline-flex !important;
+    flex-wrap:wrap !important;
     gap: 1rem !important;
+    justify-content:center !important;
 }
 
 .date-toggle label{
