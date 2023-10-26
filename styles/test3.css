@@ -3,43 +3,43 @@
 
 /* -- NEW-- */
 .date-toggle label{
-    border: none;
-    text-decoration: none;
-    font: normal normal 600 23px 'Red Hat Display';
-    letter-spacing: 0px;
-    color: #333333;
-    text-transform: uppercase;
-    background: white;
-    padding: 14px 17px 14px 17px;
-    cursor: pointer;
-    border: 0px;
-    border-radius: 100px;
+    width:100% !important;
+    border: 2px solid #333 !important;
+    color: #333 !important;
+    background-color: white !important;
+    text-decoration: none !important;
+    font: normal normal 600 23px 'Red Hat Display' !important;
+    letter-spacing: 0px !important;
+    text-align:center !important;
+    text-transform: uppercase !important;
+    border-radius: 100px !important;
+    
+    padding: 14px 17px 14px 17px !important;
+    cursor: pointer !important;
 }
 .date-toggle input:checked ~ label {
-    border: none;
-    color: white;
-    cursor: default;
-    color: white;
-    background: #333333;
-  
+    color: white !important;
+    cursor: default !important;
+    color: white !important;
+    background: #333 !important;
 }
+
 .timeslot-button{
-    border: none;
-    /* width: 100% !important; */
-    text-decoration: none;
-    font: normal normal 600 23px 'Red Hat Display';
-    letter-spacing: 0px;
-    color: #333333;
-    text-transform: uppercase;
-    background: white;
-    padding: 14px 17px 14px 17px;
-    cursor: pointer;
-    border: 0px;
-    border-radius: 100px;
+    border: 2px solid #333 !important;
+    text-decoration: none !important;
+    font: normal normal 600 23px 'Red Hat Display' !important;
+    letter-spacing: 0px !important;
+    text-align:center !important;
+    color: #333 !important;
+    text-transform: uppercase !important;
+    background: white !important;
+    padding: 14px 17px 14px 17px !important;
+    cursor: pointer !important;
+    border-radius: 100px !important;
 }
 .timeslot-button:hover{
-    color: white;
-    background: #333333;
+    color: white !important;
+    background: #333 !important;
 }
 /* -- END NEW-- */
 body {
