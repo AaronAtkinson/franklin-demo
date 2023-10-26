@@ -28,6 +28,19 @@
 .nav-button:hover{
   opacity: 0.75;
 }
+.nav-button br{
+  display:none;
+}
+.nav-button .fa-chevron-up{
+  order: 3;
+}
+.nav-button .fa-lg{
+  font-size: 0.75em !important;
+}
+.data-toggle p{
+display: flex !important;
+    gap: 1rem !important;
+}
 
 .date-toggle label{
     width:100% !important;
