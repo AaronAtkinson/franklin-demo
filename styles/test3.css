@@ -17,9 +17,11 @@
     padding: 14px 17px 14px 17px !important;
     cursor: pointer !important;
 }
-.date-toggle label:hover,
-.date-toggle input:checked ~ label {
+.date-toggle label:hover{
     color: white !important;
+    background: #333 !important;
+}
+.date-toggle input:checked ~ label {
     cursor: default !important;
     color: white !important;
     background: #333 !important;
